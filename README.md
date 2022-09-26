@@ -6,4 +6,8 @@ Desenvolvimento de uma pokédex (catálogo de monstrinhos portáteis) da primeir
 
 ---
 
+## Acesse o Pokedex!
+
+https://belanascimento.github.io/DM121-Pokedex/
+
 
