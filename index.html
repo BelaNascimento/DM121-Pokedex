@@ -16,12 +16,25 @@
 <body>
     <div class="container">
         <section class="main-header">
-            <div class="pokeball-row">
+            <div class="sort-row">
                 <div class="title">
-                    <img class="pokeball" src="image/pokeball.svg" alt="Pokeball">
-                    <h1> Pokédex </h1>
+                    <img class="pokeball-icon" src="image/pokeball.svg" alt="Pokeball">
+                    <h1>Pokédex</h1>
                 </div>
-                
+                <div class="sort">
+                    <button id="sort-btn" class="sort-btn">
+                        <div class="current-sort">
+                            <i id="sort-icon" class="fas fa-hashtag"></i>
+                        </div>
+                        <div id="sort-arrow" class="arrow">
+                            <i id="sort-arrow-icon" class="fas fa-long-arrow-alt-down"></i>
+                        </div>
+                    </button>
+                    <div id="sort-dropdown" class="dropdown hide">
+                        <i id="sort-number" class="dropdown-item fas fa-hashtag"></i>
+                        <p id="sort-name" class="dropdown-item">A</p>
+                    </div>
+                </div>
             </div>
             <div class="search-row">
                 <div class="search">
@@ -42,9 +55,9 @@
                         <button id="return-btn">
                             <i class="fas fa-chevron-left"></i>
                         </button>
-                        <h1 id="title"> Squirtle </h1>
+                        <h1 id="title"> Caterpie </h1>
                     </div>
-                    <p class="number">#007</p>
+                    <p class="number">#010</p>
                 </div>
                 <img class="pokeball-icon" src="image/pokeball.svg" alt="Pokeball">
                 <div class="detail-card-info">
@@ -132,6 +145,7 @@
     <script src="js/APIPokemon.js"></script>
     <script src="js/card.js"></script>
     <script src="js/detailsPokemon.js"></script>
+    <script src="js/sort.js"></script>
     
 </body>
 

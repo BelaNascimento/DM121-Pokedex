@@ -22,6 +22,37 @@
   color: #212121;
 }
 
+.main-header .sort-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.sort-btn {
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: #000000;
+  transition: all 0.3s ease;
+}
+
+.sort-btn:hover {
+  transform: scale(1.05) translateY(-5px);
+}
+
+.sort .current-sort {
+  position: absolute;
+  font-size: 0.8rem;
+  transform: translateX(-2px);
+}
+
+.sort .arrow {
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+
 .search {
   width: 100%;
   height: 40px;
